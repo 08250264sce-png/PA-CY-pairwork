@@ -33,14 +33,14 @@ while True:
 
 
 # Display all student names
-print("\nList of Students:")
+print("List of Students:")
 for name in students:
     print(name)
 
 # STEP 3: Quiz Section
 
 for name in students:
-    print(f"\nQuiz for {name}")
+    print(f"Quiz for {name}")
     score = 0
 
     # Question 1
@@ -62,7 +62,7 @@ for name in students:
 
 # STEP 4: Performance Analysis
 
-print("\n--- Results ---")
+print("Results")
 
 for name, score in students.items():
     print(f"\n{name}'s Score:", score)
