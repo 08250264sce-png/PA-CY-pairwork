@@ -65,7 +65,7 @@ for name in students:
 print("Results")
 
 for name, score in students.items():
-    print(f"\n{name}'s Score:", score)
+    print(f"{name}'s Score:", score)
 
     # Warning if score is 0
     if score == 0:
