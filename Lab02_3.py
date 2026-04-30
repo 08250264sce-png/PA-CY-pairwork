@@ -26,7 +26,7 @@ while True:
         break
     
     if name.strip() == "":
-        print("⚠ Warning: Name cannot be empty. Skipping...")
+        print("Warning: Name cannot be empty. Skipping...")
         continue
     
     students[name] = 0   # initialize score
@@ -69,7 +69,7 @@ for name, score in students.items():
 
     # Warning if score is 0
     if score == 0:
-        print("⚠ Warning: Very low performance!")
+        print("Warning: Very low performance!")
 
     # Performance Level
     if score == 3:
